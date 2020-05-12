@@ -1,0 +1,83 @@
+/* navbar//////////////////////// */
+.navbar-right{
+
+  margin-top:13px;
+
+}
+.navbar-inverse{
+  background-color: #27496d ;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color:white ;
+}
+.navbar-header{
+  color:#0c7b93;
+}
+.navbar-toggle .icon-bar+.icon-bar{
+    color:;
+    background-color:#0c7b93;
+}
+.navbar {
+    border-color:#303036;
+    background-color:#303036;
+}
+.navbar-inverse .navbar-nav>li>a{
+  color:# #ff9f1a
+}
+.navbar-inverse .navbar-nav>.active>a,.dropdown-menu>li>a:hover{
+    background-color:white;
+
+}
+.navbar-inverse .navbar-nav>.open>a{
+  background-color:#0c7b93;
+  color:#ff9f1a;
+
+}
+.navbar-inverse .navbar-nav>.open>a:hover{
+  background-color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a ,.navbar-inverse .navbar-brand ,.navbar-inverse .navbar-nav>.active>a{
+  color:#ff9f1a;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+.navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-brand:hover,.navbar-inverse .navbar-nav>.active>a:hover{
+    color:white;
+
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: #9e7700;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  color:#ff9f1a;
+}
+.navbar-nav>li>.dropdown-menu{
+  background-color:#303036;
+}
+.dropdown-menu>li>a{
+  color:white;
+}
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
