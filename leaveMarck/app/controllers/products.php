@@ -53,7 +53,7 @@ if(isset($_POST['add-product'])){
       }else {
           array_push($errors,'فشل في التحميل.');
       }
-      dd($_post['image']);
+      
     }else {
       array_push($errors,'الصوره مطلوبه.');
     }
@@ -110,7 +110,7 @@ if (isset($_POST['update-product'])) {
   }else {
     array_push($errors,'الصوره مطلوبه');
   }
-  
+
 
 
   if (count($errors) ===0) {

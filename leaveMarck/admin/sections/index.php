@@ -48,7 +48,7 @@
             <tr>
               <td><?php echo $key + 1; ?></td>
               <td><?php echo $section['name'];?></td>
-              <td><a href="<?php echo BASE_URL.'users/product/edit.php?id='$section['id']; ?>" class="edit">عدل</a></td>
+              <td><a href="<?php echo BASE_URL.'admin/sections/edit.php?id=' . $section['id']; ?>" class="edit">عدل</a></td>
               <td><a href="index.php?del_id=<?php echo $section['id']; ?>" class="delete">امسح</a></td>
             </tr>
 

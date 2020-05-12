@@ -89,9 +89,12 @@ if (isset($_GET['p_id'])) {
                     <div class="col-xs-9">
                     </div>
                     <div class="col-xs-3">
-                      <button type="button" hclass="btn btn-default btn-sm btn-block">
-                        اضاقة معروض
-                      </button>
+                      <a href="create.php">
+                        <button type="button"  class="btn btn-default btn-sm btn-block">
+                          اضاقة معروض
+                        </button>
+                      </a>
+
                     </div>
                   </div>
                 </div>
